@@ -10,7 +10,7 @@ Karma is a tool written in [python3](https://www.python.org) for the search of e
 sudo apt install tor python3 python3-pip
 git clone https://github.com/pcastagnaro/karma ; cd karma
 sudo -H pip3 install -r requirements.txt
-python3 bin/karma --help
+python3 bin/karma.py --help
 ```
 
 ---
@@ -20,7 +20,7 @@ All the tests were done in `Debian/Ubuntu`.
 
 1. Search emails with the password: `123456789`
 ```
-python3 bin/karma search '123456789' --password -o test1
+python3 bin/karma.py search '123456789' --password -o test1
 ```
 
 2. Search emails with the local-part: `johndoe`
